@@ -23,6 +23,7 @@ public class stringtointeger {
     public static int s2i(String str) { // function to convert from string to int.
         int answer = 0;
         for (int i = 0; i < str.length(); i++) {
+            //PT -- make sure str.charAt(i) is a digit before add it to the number. -2
             answer = answer * 10 + (str.charAt(i) - '0'); // For loop and goes through each character and mulitplies base and saves to answer.
         }
         return answer;
