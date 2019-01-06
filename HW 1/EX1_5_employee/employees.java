@@ -40,6 +40,7 @@ public class employees {
     public void setPosition(String Position) {position = Position;}
     public void setBossName(String BossName) {bossName = BossName;}
 
+    //PT -- this would be better as a override of toString()
     // Makes a summary for the employee of whom ill be displaying
     public void ESummary() {
         System.out.printf("\n\nName: " + name + "\nID: " + ID + "\nHire Date: " + hireDate + "\nPosition: " + 
